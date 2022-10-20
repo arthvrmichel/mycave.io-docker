@@ -2,13 +2,14 @@
 The API to manage your videogames collection. 👾
 
 ## Getting started 🧗
-### Prérequis ✔️
+### Prerequisite ✔️
 * Have docker and docker compose
 * Have the make command
 ### Installation ⬇️
 * Clone the project
 * Get a the racine of the project
 * Run `make start`
+* Now you can access the API documentation with the URL `http://localhost/api`
 
 ## Make commands 📜
 * `help`: Outputs the helpscreen
