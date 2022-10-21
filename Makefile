@@ -8,6 +8,7 @@ PHP_CONT = $(DOCKER_COMP) exec php
 PHP      = $(PHP_CONT) php
 COMPOSER = $(PHP_CONT) composer
 SYMFONY  = $(PHP_CONT) bin/console
+PHPUNIT  = $(PHP) bin/phpunit
 
 # Misc
 .DEFAULT_GOAL = help
@@ -57,3 +58,7 @@ remake-database: ## Remake the database and run the basic data command
 	$(SYMFONY) doctrine:database:create
 	$(SYMFONY) doctrine:migrations:migrate
 	$(SYMFONY) app:populate-database
+
+phpunit: ## Run the unit tests, pass the parameter "c=" to run tests in a specific directory or class, example: make phpunit c=tests/Entity
+	@$(eval c ?=)
+	@$(PHPUNIT) $(c)
