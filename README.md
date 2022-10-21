@@ -1,9 +1,7 @@
 # mycave.io 📚
 The API to manage your videogames collection. 👾
 
-![GitHub branch checks state](https://img.shields.io/github/checks-status/arthvrmichel/mycave.io-docker/main)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/arthvrmichel/mycave.io-docker)
-![GitHub](https://img.shields.io/github/license/arthvrmichel/mycave.io-docker)
+[![CI](https://github.com/arthvrmichel/mycave.io-docker/actions/workflows/ci.yml/badge.svg)](https://github.com/arthvrmichel/mycave.io-docker/actions/workflows/ci.yml)
 
 ## Getting started 🧗
 ### Prerequisite ✔️
