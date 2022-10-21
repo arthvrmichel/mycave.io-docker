@@ -27,3 +27,4 @@ The API to manage your videogames collection. 👾
 * `sf`: List all Symfony commands or pass the parameter "c=" to run a given command, example: make sf c=about
 * `cc`: Clear the cache
 * `remake-database`: Remake the database and run the basic data command
+* `phpunit` Run the unit tests, pass the parameter "c=" to run tests in a specific directory or class, example: make phpunit c=tests/Entity
